@@ -1,0 +1,88 @@
+@font-face {
+    font-family: MyCustomFont; /* The name you will use to reference this font */
+    src: url(./fonts/cooper-black.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Shows fallback text until the custom font loads */
+}
+
+/* .original-surfer-regular {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+header h1 {
+    /* font-family: MyCustomFont; */
+    font-family: 'Original Surfer', sans-serif;
+    background-color: lightblue;
+    color: navy;
+}
+
+.page-title {
+    font-family: 'Original Surfer', sans-serif;
+    background-color: rgb(153, 195, 209);
+    color: rgb(86, 67, 15)
+}
+
+h1 {
+    color: navy;
+    /* font-family: Arial, sans-serif; */
+    font-style: italic;
+    border: 5px solid black; padding: 10px 5px;
+    text-align: center;
+}
+
+header h4 {
+    color: navy;
+    font-family: 'Original Surfer', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Navigation bar styles */
+.navbar {
+    /* background-color: #1a1a1a; */
+    padding: 0px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    display: block;
+    color: rgb(52, 90, 150);
+    text-decoration: none;
+    font-family: 'Original Surfer', sans-serif;
+    padding: 5px 6px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #333;
+    color: #f5f553 
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Original Surfer', sans-serif;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.05);
+}
